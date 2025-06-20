@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# 忽略回测报告文件夹
+backtest_reports/
+backtest/logs/
