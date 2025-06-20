@@ -1,9 +1,9 @@
-一个基于Python的合约自动交易
-可以通过在strategies文件夹下新建新策略并且通过参数调用进行使用
-代码很一坨,主要为策略backtest使用,实际交易函数疑似还有问题
-需要先在config/config.yaml修改API_KEY和SECRET_KEY
+一个基于Python的合约自动交易  
+可以通过在strategies文件夹下新建新策略并且通过参数调用进行使用  
+代码很一坨,主要为策略backtest使用,实际交易函数疑似还有问题  
+需要先在config/config.yaml修改API_KEY和SECRET_KEY  
 
-以下readme由AI根据box_cli.py生成
+以下readme由AI根据box_cli.py生成  
 可能有错误,请发请求让我修
 
 ## 快速开始
