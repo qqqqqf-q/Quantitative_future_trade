@@ -3,3 +3,4 @@
 # 忽略回测报告文件夹
 backtest_reports/
 backtest/logs/
+config/config.yaml
