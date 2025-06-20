@@ -1,0 +1,24 @@
+# 交易所配置
+exchange:
+  - name: binance       # 交易所名称
+    testnet: false      # 是否使用测试网
+    api_key: 64fTtJXwghmGjrmJUAO3ZtxiG8bsk6sa4ytzQV2q5licST17vGtJ6K9eVFlp4jV7
+    secret_key: 0a3eJtDmdYjeWZMtyrGr4pVpa4kroYfU2s5FUIY7C0eAkIQtwwsta8KZZ29Ir5B7
+
+  - name: xt
+    testnet: false
+    api_key: 64b3c9fd-b076-4bb4-9707-7376960df7ca
+    secret_key: d8a4c75899061bd0ff96095b28d612d19bb52323
+
+logging:
+  level: INFO            # 日志级别
+  log_dir: logs          # 日志目录
+  max_file_size: 10MB    # 单文件最大尺寸
+  retention_days: 7      # 保留天数
+
+defaults:
+  symbol: BTCUSDT        # 默认交易对
+  timeframe: 1h          # 默认时间周期
+
+ui:
+  theme: dark            # 界面主题
